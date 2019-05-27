@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+      <NLink to="/about" class="button--grey">About</NLink>
+      <NLink to="/test" class="button--grey">Test</NLink>
+      <NLink to="/" class="button--grey">index</NLink>
     <Nuxt/>
   </div>
 </template>
